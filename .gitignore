@@ -1,0 +1,21 @@
+# Ignora la carpeta node_modules
+data
+examen-env
+
+# Ignora todos los archivos de texto y generados automaticamente
+
+*.png
+*.o
+*.out
+*.log
+*.tmp
+
+# Ignorar archivos de entorno
+.env
+.env.*
+venv/
+node_modules/
+bower_components/
+
+# Ignora archivos de configuración SASS
+.sass-cache
